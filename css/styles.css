@@ -4,6 +4,9 @@ html, body{
 a{
   font-family: 'Source Sans Pro', sans-serif;
 }
+a.nav-link{
+  font-size: 20px;
+}
 nav{
   text-align: left;
 }
@@ -24,6 +27,7 @@ h1.card-title{
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   color: #2bd3d6;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 16px;
   padding-bottom: 50px;
@@ -32,7 +36,7 @@ p.copyrightOther{
   margin: 0;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
 div.myRow{
   height: 100vh;
@@ -40,14 +44,15 @@ div.myRow{
   align-items: center;
   justify-content: center;
 }
+
 button.portfolioButton{
   padding: 10px 20px;
   margin-bottom: 20px;
   background-color: #000000;
-  border: 1px solid #000000;
+  border: 2px solid #2bd3d6;
   border-radius: 5px;
   color: #2bd3d6;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -56,17 +61,15 @@ button.m-b{
 }
 button.portfolioButton:hover{
   color: #ffffff;
+  border: 2px solid #ffffff;
 }
 footer.newColor{
   background-color: #000000;
   height: 56px;
 }
-@media (max-width: 360px){
+@media (orientation: landscape) {
   h1.card-title{
-    font-size: 25px;
-  }
-  button.portfolioButton{
-    font-size: 16px;
-    padding: 10px 10px;
+    padding: 0;
+    margin-bottom: 30px;
   }
 }
