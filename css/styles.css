@@ -15,9 +15,6 @@ a{
 a.nav-link{
   font-size: 20px;
 }
-ul{
-  padding-bottom: 8px;
-}
 button.navbar-toggler{
   background-color: #D3D3D3;
 }
@@ -31,7 +28,7 @@ h1.card-title{
   color: #2bd3d6;
   font-weight: bold;
   text-align: center;
-  margin: 20px auto 30px;
+  margin: 28px auto 22px;
 }
 div.card{
   border: 0;
