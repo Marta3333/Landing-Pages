@@ -9,11 +9,12 @@ header.card-header{
   border: 0;
   border-radius: 0 !important;
 }
-a{
-  font-family: 'Source Sans Pro', sans-serif;
-}
 a.nav-link{
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
+}
+ul.nav a.nav-link:hover {
+  color: #a39e9e !important;
 }
 button.navbar-toggler{
   background-color: #D3D3D3;
